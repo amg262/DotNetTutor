@@ -25,7 +25,7 @@ person1.GithubUrl = githubUrl;
 Console.WriteLine($"Person1's name is: {person1.Name}"); // using the GET methods to get the properties of our Person object
 Console.WriteLine($"Person1's age is: {person1.Age}");
 Console.WriteLine($"Person1's name is: {person1.Name}");
-Console.WriteLine($"Person1's tag is: {person1.Tag}");
+Console.WriteLine($"Person1's tag is: {person1.Tag}"); // This will be null since we didnt set it.
 
 // Using the constructor that takes parameters - so we set them when we create the object and not manually set them 
 // and it'll also set the Tag property for us
@@ -33,7 +33,7 @@ var person2 = new Person(age, name, githubUrl);
 Console.WriteLine($"Person2's name is: {person2.Name}"); // using the GET methods to get the properties of our Person object
 Console.WriteLine($"Person2's age is: {person2.Age}");
 Console.WriteLine($"Person2's name is: {person2.Name}");
-Console.WriteLine($"Person2's tag is: {person2.Tag}");
+Console.WriteLine($"Person2's tag is: {person2.Tag}"); // This won't be null since the second constructor set it for us
 
 // You asked why objects were useful - because we can create a new Person object and expect it to always have these properties
 // so we can write code that uses these properties and functions and we know that every Person object will always have.
