@@ -34,3 +34,8 @@ Console.WriteLine($"Person2's name is: {person2.Name}"); // using the GET method
 Console.WriteLine($"Person2's age is: {person2.Age}");
 Console.WriteLine($"Person2's name is: {person2.Name}");
 Console.WriteLine($"Person2's tag is: {person2.Tag}");
+
+// You asked why objects were useful - because we can create a new Person object and expect it to always have these properties
+// so we can write code that uses these properties and functions and we know that every Person object will always have.
+// With Classes (Objects), we would have to specify the properties a Person has - which would be difficult to use
+// later on in a loop, since we cannot depend on any uniformity.
