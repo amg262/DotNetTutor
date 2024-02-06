@@ -13,7 +13,7 @@ Console.WriteLine("Enter an age for our new Person object: ");
 int.TryParse(Console.ReadLine(), out var age);
 
 
-
+// commented out the old way to convert a string to an integer
 
 // 
 Console.WriteLine("Enter a Github URL for our new Person object: ");
